@@ -4,6 +4,14 @@ body{
     background: linear-gradient(90deg, rgba(8,235,160,1) 0%, rgba(6,173,149,1) 46%, rgba(0,212,255,1) 100%);
 }
 
+#mainheader{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#ef9cff, #c300ff);
+    color: rgb(255, 208, 0);
+    text-shadow: 5px 10px #333;
+    -webkit-text-stroke: 1px #333;
+}
+
 #avatar{
     border-radius: 60%;
     border: solid ;
@@ -13,6 +21,33 @@ body{
     font-weight: bold;
 }
 
+
+/*this is for the headers like the about me, projects and contact*/
+
+#aboutme-section{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(255, 0, 200), #68014e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #333;
+}
+
+#projects-header{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#8385ff, #2b2ef1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #333;
+}
+
+#contact-header{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(24, 133, 33), #c9a400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #333;    
+}
+
 /* for the about sections*/
 #about-section{
     font-size: 20px;
@@ -20,4 +55,18 @@ body{
     border-style: solid;
     border-image: linear-gradient(#fbff00, #ef9cff) 30;
     border-width: 3px;
+}
+
+#project-section{
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-image: linear-gradient(#c300ff, rgb(247, 92, 2)) 30;
+}
+
+#contact-section{
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-image: linear-gradient(#080a69, rgb(10, 245, 2))30;
 }
