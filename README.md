@@ -8,3 +8,8 @@ background colors for the website and then made a simple navbar while it is a st
 10/28/23
 Today I went ahead and added a profile picture to the web page, added sub text under the profile picture, added in a h2 element, made about sections started wit the border and added a gradient effect to it chose yellow and purple color to make the border stand out,
 added a paragraph to my web page for the about me. For the whole website I added a google font and for the profile picture I used the South Park character generator to make my profile picture.
+
+
+11/4/23
+I finally have the basic version of this website setup finally and wanted to get it done. So what I did do was finish the about me, projects and contact sections done and I have upgraded the code for both HTML and CSS and the website has been updated after I have had  my 
+github desktop app confinguered. For now this basic website will have to do till I go ahead and get more skills to upload to this site or decided to keep the site as it is so that way I can compare and see how far I have come on my coding journey. :D
