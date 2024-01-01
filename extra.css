@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Share Tech', sans-serif;
     background: rgb(8,235,160);
@@ -21,6 +22,30 @@ body{
     font-weight: bold;
 }
 
+/*about me section with gap in between*/
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    
+  } 
+
+  .box {
+    height: 100px;
+    }
+
+/*for the projects section gap*/
+
+.container_2{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    
+}
+
+.box_2{
+    height: 260px;
+}
 
 /*this is for the headers like the about me, projects and contact*/
 
@@ -30,6 +55,9 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #333;
+    padding: 20px;
+    margin:  0px 0px 10px 10px ;
+    border-color: transparent
 }
 
 #projects-header{
