@@ -13,9 +13,20 @@ body{
     -webkit-text-stroke: 1px #333;
 }
 
+/*for the avatar picture*/
+
+
+.picture_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
 #avatar{
     border-radius: 60%;
     border: solid ;
+    
 }
 
 #avatartext{
